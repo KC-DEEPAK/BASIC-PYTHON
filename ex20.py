@@ -1,0 +1,18 @@
+# we ar going to calucating a love score by using some functions.
+
+str1=input("enter the boy name.\n")
+str2=input("enter the girls name.\n")
+name=(str1 + str2)
+name.lower()
+t=name.count('t')
+r=name.count('r')
+u=name.count('u')
+e=name.count('e')
+total1=print(t+r+u+e)
+l=name.count('l')
+o=name.count('o')
+v=name.count('v')
+e=name.count('e')
+total2=print(l+o+v+e)
+score=int(str(total1) + str(total2))
+print(f"love score is .{score}")
